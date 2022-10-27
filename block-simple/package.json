@@ -1,0 +1,16 @@
+{
+    "name": "block-simple",
+    "version": "1.0.0",
+    "license": "GPL-2.0-or-later",
+    "main": "block.js",
+    "devDependencies": {
+        "cross-env": "^5.0.1"
+    },
+    "scripts": {
+        "build": "node esbuild.config.mjs"
+    },
+    "dependencies": {
+        "esbuild": "^0.15.12",
+        "esbuild-plugin-external-global": "^1.0.1"
+    }
+}
