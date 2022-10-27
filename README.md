@@ -5,7 +5,7 @@ A few samples of WordPress Gutenberg blocks.
 ## Requirements
 
 * NPM
-* Babel
+* esbuild
 
 ## Compatibility
 
@@ -23,7 +23,7 @@ npm install
 After that, you just need to start the builder, that you'll listen to whatever changes on your block.js
 
 ``
-npm run dev
+npm run build
 ``
 
 This will generate your block.build.js that is the script that has to be uploaded.
